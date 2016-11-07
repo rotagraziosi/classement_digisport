@@ -1,0 +1,254 @@
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:18
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(18): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/index.php(20): DAL->Connexion()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'www-data'@'localhost' (using password: NO)' in /var/www/html/classement/classes/DAL.php:16
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(16): PDO->__construct('mysql:host=; db...', NULL, NULL)
+#1 /var/www/html/classement/model/Joueur.php(29): DAL->__construct(NULL, NULL, NULL, NULL)
+#2 /var/www/html/classement/index.php(61): Joueur->AddJoueur()
+#3 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:16
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(16): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:16
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(16): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement'' in /var/www/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/classement/index.php(32): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'digisport'@'localhost' (using password: YES) in /var/www/html/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/html/classement/index.php(38): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}PDOException: SQLSTATE[HY000] [1044] Access denied for user 'digisport'@'localhost' to database 'classement' in /var/www/html/classement/classes/DAL.php:14
+Stack trace:
+#0 /var/www/html/classement/classes/DAL.php(14): PDO->__construct('mysql:host=loca...', 'digisport', 'digisport')
+#1 /var/www/html/classement/index.php(38): DAL->__construct('localhost', 'classement', 'digisport', 'digisport')
+#2 {main}
