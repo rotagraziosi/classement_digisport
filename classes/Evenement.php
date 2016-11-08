@@ -35,7 +35,7 @@ class EvenementHandler{
 
                         $res= $dal->ExecuteInsert($sqlParam,$paramInput);
                         
-			//header('Location: index.php');
+			header('Location: index.php?action=form_parameter_event');
 		}
 		
 	}

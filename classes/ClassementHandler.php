@@ -2,9 +2,7 @@
 
 class Classement{
 	public function Render(DAL $dal,$IdEvenement){
-		$j = new Joueur();
-		
-		
+		$j = new Joueur();                	
 		$TaillesTableau=array(3,3,6,6,6,6);
 		
 		$res= $dal->ExecuteGet("SELECT * FROM Joueurs WHERE IdEvenement = $IdEvenement ORDER BY Score DESC LIMIT 0,30");

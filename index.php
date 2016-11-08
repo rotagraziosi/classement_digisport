@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/parameters.php" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen"/>
-<link href="css/parameters.php" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
@@ -34,7 +34,10 @@
 		{
 			include $filename;
 		}
-
+		foreach (glob(ROOT_DIR."/css/*.php") as $filename)
+		{
+//			include $filename;
+		}
 
 		$dal = new DAL($db_host,$db_name,$db_user,$user_pw);
 
@@ -130,7 +133,6 @@
 						';
 					}
 					break;
-
 				case "form_create_evenement":
 					$e = new EvenementHandler();
 					echo $e->RenderAddForm();
@@ -189,14 +191,19 @@
 					header('Location: index.php?action=list_player');
 						
 						break;
-                                case "form_parameter_event":
-                                    
+                                case "form_parameter_event":                                    
+                                    $ph = new ParametersHandler();
+                                    echo $ph->RenderUpdateForm($dal, $_SESSION["IdEvenement"]);
+                                    break; 
+                                case "update_parametres":
+                                    $ph = new ParametersHandler();
+                                    echo $ph->update_parameters();                                    
                                     break;
-                                    
 				default:
 					if(isset($_SESSION["IdEvenement"]))
 						echo '
-							<a href="index.php?action=list_player">Aller au classement</a>
+							<p><a href="index.php?action=list_player">Aller au classement</a></p>
+                                                        <p><a href="index.php?action=form_parameter_event">Paramètres</a></p>
 							<br />
 							';
 					else

@@ -9,7 +9,7 @@ body{
 
     width: 100%;
     text-align: center;
-    background: url('../img/background.jpg');
+    /*background: url('../img/background.jpg');*/
     color: black;
 }
 
@@ -85,8 +85,8 @@ ul li{
 
 /* //position */
 .classement-tableau td:nth-child(1){
-	background-color: black;
-	color: white;
+/*	background-color: black;
+	color: white;*/
 	width: 50px;
 	border: 1px solid black;
 	border-radius: 10px 0 0 10px;
@@ -94,15 +94,15 @@ ul li{
 
 /* //Nom */
 .classement-tableau td:nth-child(2){
-	background-color: white;
-	color: black;
+/*	background-color: white;
+	color: black;*/
 	width: 290px;
 
 }
 
 /* //Score */
 .classement-tableau td:nth-child(3){
-	background-color: orange;
+/*	background-color: orange;*/
 	width: 120px;
 	border: 1px solid black;
 	border-radius: 0 10px 10px 0;
@@ -133,54 +133,10 @@ ul li{
 }
 
 
-
-/*
-.tableau-num0 tr td.rank-cell:before{
-	content: ' ';
-    display:block;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background: url('../img/bronze-icon.png');	
-	margin-left: -120px;    
+.sample-rank{
+    margin-bottom: 50px;
 }
 
-/*
-.tableau-num0 > tr:nth-child(1):before {
-	background: url('../img/gold-icon.png');
+#UrlBackground{
+    display: inline-block;
 }
-.tableau-num0  > tr:nth-child(2):before {
-	background: url('../img/silver-icon.png');	
-}
-.tableau-num0  > tr:nth-child(3):before {
-	background: url('../img/bronze-icon.png');	
-}
-*/
-
-
-/*
-.tableau-num0 > tr:nth-child(1) > td:nth-child(1){
-	background: url('../img/gold-icon.png');
-}
-.tableau-num0  > tr:nth-child(2) > td:nth-child(1){
-	background: url('../img/silver-icon.png');	
-}
-.tableau-num0  > tr:nth-child(2) > td:nth-child(1){
-	background: url('../img/bronze-icon.png');	
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
