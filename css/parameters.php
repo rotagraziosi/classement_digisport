@@ -58,10 +58,10 @@
 ?> 
 
 body{    
-    background: url('<?php echo $UrlBackground; ?>');    
+    background: url('../img/<?php echo $UrlBackground; ?>');    
 }
 
-.content h1{
+#EventTitle{
     color: <?php echo $TitleColor; ?>;
 }
 

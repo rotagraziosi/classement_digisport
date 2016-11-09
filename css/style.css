@@ -23,7 +23,9 @@ ul li{
     
 }
 
-
+body, a,p,form{
+    font-size: 20px;
+}
 
 #addPlayerLink{
 	font-size: 50px;	
@@ -42,7 +44,7 @@ ul li{
 
 
 .content h1 ,#addPlayerLink {
-	color: black;
+/*	color: black;*/
 	margin-bottom: 50px;
 }
 
@@ -74,7 +76,8 @@ ul li{
 
 
 .classement-tableau.tableau-num0 td{
-	height: 60px;
+	height: 96px;
+	/*height: 60px;*/
 }
 
 .classement-tableau td{
@@ -137,6 +140,15 @@ ul li{
     margin-bottom: 50px;
 }
 
+
+
+.create-event{
+    margin-top: 100px;
+}
 #UrlBackground{
     display: inline-block;
+}
+
+#ClassementBackgroundColor, #NomBackgroundColor,#ScoreBackgroundColor,#TitleColor{
+    margin-right: 50px;
 }

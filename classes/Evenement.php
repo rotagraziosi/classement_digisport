@@ -5,7 +5,7 @@ class EvenementHandler{
 	public function RenderAddForm(){
 		$html='
 		
-	<form method="POST" action="index.php?action=create_evenement" >
+	<form class="create-event" method="POST" action="index.php?action=create_evenement" >
 		Nom évenement
 		<input type="text" name="Nom" required="required"><br>		
 		<input type="submit" value="Ajouter un évenement">
@@ -25,9 +25,14 @@ class EvenementHandler{
     			)";
 
 			$res= $dal->ExecuteInsert($sql,$_POST);
-			 
+			         debug($_POST['Nom']);
+                        debug($_SESSION);                         
+                        $_SESSION['IdEvenement'] = $res;
+                        $_SESSION['NomEvenement'] = $_POST['Nom'];
                         
-
+                        debug($_POST['nom']);
+                        debug($_SESSION);
+                        
                         //Add default parametres
                         $sqlParam = "INSERT INTO Parametres(IdEvenement)
     			VALUES (:IdEvenement)";

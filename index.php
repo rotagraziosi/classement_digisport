@@ -96,7 +96,7 @@
 
 		//Sinon, on peut faire ce que l'on veut
 		else{
-			echo '<h1>'.$_SESSION["NomEvenement"].'</h1>';
+			echo '<h1 id="EventTitle">'.$_SESSION["NomEvenement"].'</h1>';
 			switch ($action)
 			{
 				case "list_player":
@@ -126,11 +126,7 @@
 						$c = new Classement();
 						echo $c->Render($dal,$_SESSION["IdEvenement"]);
 						$j = new Joueur();
-						echo $j->RenderAddJoueurForm();
-						echo '
-						<a id="addPlayerLink" href="#addPlayerForm">Ajouter un joueur</a>
-
-						';
+						echo $j->RenderAddJoueurForm();						
 					}
 					break;
 				case "form_create_evenement":
@@ -197,7 +193,7 @@
                                     break; 
                                 case "update_parametres":
                                     $ph = new ParametersHandler();
-                                    echo $ph->update_parameters();                                    
+                                    echo $ph->update_parameters($dal);                                    
                                     break;
 				default:
 					if(isset($_SESSION["IdEvenement"]))
