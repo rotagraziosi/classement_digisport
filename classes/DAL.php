@@ -35,13 +35,21 @@ class DAL{
 		return $result;
 	}
 	
+        public function  ExecuteSelectSimple($query){
+		$stmt = $this->con->query($query);
+		$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+		return $result;
+	}
 	public function ExecuteInsert($sql,$array){
 		$req = $this->con->prepare($sql);
 		$req->execute($array);
                 return $this->con->lastInsertId();
 	}
 	
-	
+	public function Execute($sql){
+            $req = $this->con->prepare($sql);
+            $req->execute();            
+        }
 	
 	
 }

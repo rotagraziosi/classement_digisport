@@ -199,6 +199,10 @@
                                     $e = new EvenementHandler();
                                     $e->delete_evenement($dal);
                                     break;
+                                case "export_excel":
+                                    $c = new Classement();
+                                    $c->Export_Excel($dal);
+                                    break;
 				default:
 					if(isset($_SESSION["IdEvenement"]))
 						echo '

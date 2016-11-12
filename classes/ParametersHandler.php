@@ -62,53 +62,7 @@ class ParametersHandler {
                 . '</tr>'
                 . '</table>'
                 . '</div>';
-//        $html.='<form action="index.php?action=update_parametres" method="POST" enctype= "multipart/form-data">
-//            <table>
-//            <tr>
-//                <td>
-//                <label for="TitleColor">Couleur du titre : </label><input id="TitleColor" type="color" name="TitleColor" value="'.$TitleColor.'">
-//                </td><td>
-//                <label for="UrlBackground">Choisissez l\'image de fond : </label> <input id="UrlBackground" type="file" name="UrlBackground[]" value="'.$UrlBackground.'" accept="image/*">
-//                </td>
-//            </tr>
-//            <tr>
-//                <td>
-//                <label for="ClassementBackgroundColor">Couleur du fond de la première case : </label><input id="ClassementBackgroundColor" type="color" name="ClassementBackgroundColor" value="'.$ClassementBackgroundColor.'">
-//                </td><td>
-//                <label for="ClassementBackgroundFont">Couleur de la police de la première case : </label><input id="ClassementFontColor" type="color" name="ClassementBackgroundFont" value="'.$ClassementBackgroundFont.'">
-//                </td>
-//            </tr>
-//            <tr>
-//                <td>
-//                <label for="NomBackgroundColor">Couleur du fond de la deuxième case : </label><input id="NomBackgroundColor" type="color" name="NomBackgroundColor" value="'.$NomBackgroundColor.'">
-//                </td>
-//                <td>
-//                <label for="NomBackgroundFont">Couleur de la police de la deuxième case : </label><input id="NomFontColor" type="color" name="NomBackgroundFont" value="'.$NomBackgroundFont.'">
-//                </td>
-//            </tr>
-//            <tr>
-//                <td>
-//                <label for="ScoreBackgroundColor">Couleur du fond de la troisième case : </label><input id="ScoreBackgroundColor" type="color" name="ScoreBackgroundColor" value="'.$ScoreBackgroundColor.'">
-//                </td>
-//                <td>                
-//                <label for="ScoreBackgroundFont">Couleur de la police de la troisième case : </label><input id="ScoreFontColor" type="color" name="ScoreBackgroundFont" value="'.$ScoreBackgroundFont.'">
-//                </td>
-//            </tr>
-//            <tr>
-//                <input type="submit" value="Valider">
-//                <input type="reset" value="Réinitialiser">
-//                <INPUT Type="button" VALUE="Retour" onClick="history.go(-1);return true;">
-//            </tr>
-//        </form>';
-//        
-        
-        
-        
-        
-        
-        
-        
-        
+     
         
         
         
@@ -150,6 +104,7 @@ class ParametersHandler {
         
         
         $html.='<p><a href="index.php?action=delete_evenement" onclick="return confirm(\'Voulez vous supprimer l\\\'événement '.$_SESSION["NomEvenement"].'\')" >Supprimer l\'événement</a></p>';
+        $html.='<p><a href="export_excel.php">Export Excel des joueurs</a></p>';
         
         return $html;             
     }
