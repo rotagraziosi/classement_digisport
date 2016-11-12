@@ -26,7 +26,8 @@ class EvenementHandler{
 
 			$res= $dal->ExecuteInsert($sql,$_POST);
 			         debug($_POST['Nom']);
-                        debug($_SESSION);                         
+
+                                 
                         $_SESSION['IdEvenement'] = $res;
                         $_SESSION['NomEvenement'] = $_POST['Nom'];
                         
@@ -78,6 +79,18 @@ class EvenementHandler{
 			header('Location: index.php');				
 		}
 	}
-	
+    function delete_evenement(DAL $dal){        
+        
+        $sql="DELETE FROM `Parametres` WHERE IdEvenement = ".$_SESSION['IdEvenement']."";
+    	$res= $dal->ExecuteInsert($sql,null);
+        
+        $sql="DELETE FROM `Evenements` WHERE Id = ".$_SESSION['IdEvenement']."";
+    	$res= $dal->ExecuteInsert($sql,null);
+        
+        unset($_SESSION['IdEvenement']);
+        unset($_SESSION['NomEvenement']);
+        
+        header('Location: index.php');
+    }
 	
 }

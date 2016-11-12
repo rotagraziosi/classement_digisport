@@ -29,7 +29,7 @@ body, a,p,form{
 
 #addPlayerLink{
 	font-size: 50px;	
-	border: 5px solid black;
+/*	border: 5px solid black;*/
 	border-radius: 50px;
 	padding: 0 20px;
 }

@@ -73,7 +73,7 @@
 				case "form_select_evenement":
 					$e = new EvenementHandler();
 					echo $e->RenderSelectEvenement($dal);
-					break;                                
+					break;    
 				default:
 					if(!isset($_SESSION["IdEvenement"]))
 						echo '
@@ -194,6 +194,10 @@
                                 case "update_parametres":
                                     $ph = new ParametersHandler();
                                     echo $ph->update_parameters($dal);                                    
+                                    break;
+                                case "delete_evenement":
+                                    $e = new EvenementHandler();
+                                    $e->delete_evenement($dal);
                                     break;
 				default:
 					if(isset($_SESSION["IdEvenement"]))

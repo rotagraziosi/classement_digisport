@@ -61,9 +61,14 @@ body{
     background: url('../img/<?php echo $UrlBackground; ?>');    
 }
 
-#EventTitle{
+#EventTitle,#addPlayerLink{
     color: <?php echo $TitleColor; ?>;
 }
+#addPlayerLink{
+	border: 5px solid <?php echo $TitleColor; ?>;
+
+}
+
 
 .classement-tableau td:nth-child(1){
     background-color: <?php echo $ClassementBackgroundColor; ?>;

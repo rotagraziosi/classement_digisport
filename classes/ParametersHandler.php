@@ -30,16 +30,6 @@ class ParametersHandler {
         if(isset($_SESSION["IdEvenement"])){
             $res= $dal->ExecuteGetAsClass('SELECT * FROM Parametres WHERE IdEvenement = '.$_SESSION["IdEvenement"],'Parametre');
 
-            //Get param from DB
-            $TitleColor =$res[0]->TitleColor;
-            $ClassementBackgroundColor = $res[0]->ClassementBackgroundColor;
-            $ClassementBackgroundFont = $res[0]->ClassementBackgroundFont;
-            $NomBackgroundColor = $res[0]->NomBackgroundColor;
-            $NomBackgroundFont = $res[0]->NomBackgroundFont;
-            $ScoreBackgroundColor = $res[0]->ScoreBackgroundColor;
-            $ScoreBackgroundFont = $res[0]->ScoreBackgroundFont;
-            $UrlBackground = $res[0]->UrlBackground;
-            
             //If no param, create default one
             if(count($res)==0){
                 $res= $dal->ExecuteGetAsClass('SELECT * FROM Parametres WHERE IdEvenement = '.$_SESSION["IdEvenement"],'Parametre');
@@ -47,6 +37,18 @@ class ParametersHandler {
                 $paramInput = array('IdEvenement'=>$_SESSION["IdEvenement"]);
                 $res= $dal->ExecuteInsert($sqlParam,$paramInput);    
             }
+            else{
+                //Get param from DB
+                $TitleColor =$res[0]->TitleColor;
+                $ClassementBackgroundColor = $res[0]->ClassementBackgroundColor;
+                $ClassementBackgroundFont = $res[0]->ClassementBackgroundFont;
+                $NomBackgroundColor = $res[0]->NomBackgroundColor;
+                $NomBackgroundFont = $res[0]->NomBackgroundFont;
+                $ScoreBackgroundColor = $res[0]->ScoreBackgroundColor;
+                $ScoreBackgroundFont = $res[0]->ScoreBackgroundFont;
+                $UrlBackground = $res[0]->UrlBackground;
+            }
+
         }            
     
     
@@ -134,11 +136,7 @@ class ParametersHandler {
                 <INPUT Type="button" VALUE="Retour" onClick="history.go(-1);return true;">
             </p>
         </form>';
-        
-        
-        
-        
-        
+ 
         $html.='<script>
             
     document.getElementById("TitleColor").addEventListener("input", changeBackground, false);
@@ -148,9 +146,12 @@ class ParametersHandler {
     document.getElementById("ClassementFontColor").addEventListener("input", changeBackground, false);
     document.getElementById("NomFontColor").addEventListener("input", changeBackground, false);
     document.getElementById("ScoreFontColor").addEventListener("input", changeBackground, false);</script>';
-       
+               
+        
+        
+        $html.='<p><a href="index.php?action=delete_evenement" onclick="return confirm(\'Voulez vous supprimer l\\\'événement '.$_SESSION["NomEvenement"].'\')" >Supprimer l\'événement</a></p>';
+        
         return $html;             
-       
     }
     
     public function update_parameters(DAL $dal){
