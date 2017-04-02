@@ -60,7 +60,7 @@ body, a,p,form{
 
 
 .block-tab{
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .tableau-num1{
@@ -151,4 +151,9 @@ body, a,p,form{
 
 #ClassementBackgroundColor, #NomBackgroundColor,#ScoreBackgroundColor,#TitleColor{
     margin-right: 50px;
+}
+
+.PlayerForm{
+	width: 420px;
+	
 }

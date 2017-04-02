@@ -83,7 +83,7 @@ class Joueur{
     function RenderAddJoueurForm(){
     	$html='
 				<div style="display:none">
-				<form id="addPlayerForm" action="index.php?action=create_player" method="POST">
+				<form id="addPlayerForm" class="PlayerForm" action="index.php?action=create_player" method="POST">
     			<p>
     			<label for="score">    				
     			Score
@@ -144,7 +144,7 @@ class Joueur{
     	
     	$html='
 				<div style="display:none">
-				<form id="editPlayerForm'.$idJoueur.'" action="index.php?action=edit_player" method="POST">
+				<form id="editPlayerForm'.$idJoueur.'" class="PlayerForm" action="index.php?action=edit_player" method="POST">
 				<input type="hidden" name="Id" value="'.$res[0]->Id.'">
     			<p>
     			<label for="score">

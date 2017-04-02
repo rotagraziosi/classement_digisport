@@ -111,7 +111,7 @@ class ParametersHandler {
     
     public function update_parameters(DAL $dal){
         define('TARGET', 'img/');    // Repertoire cible
-        define('MAX_SIZE', 1000000);    // Taille max en octets du fichier
+        define('MAX_SIZE', 10000000);    // Taille max en octets du fichier
         define('WIDTH_MAX', 1920);    // Largeur max de l'image en pixels
         define('HEIGHT_MAX', 1080);    // Hauteur max de l'image en pixels
         
@@ -197,7 +197,7 @@ class ParametersHandler {
               else
               {
                 // Sinon erreur sur les dimensions et taille de l'image
-                $message = 'Erreur dans les dimensions de l\'image !';
+                $message = 'Erreur dans les dimensions de l\'image !';			
               }
             }
             else
@@ -219,8 +219,8 @@ class ParametersHandler {
         }
         
         $param["IdEvenement"] = $_SESSION["IdEvenement"];
-        debug($param);
-        
+//        debug($message);
+		
         
         $param = array_combine(
         array_map(function($k){ return ':'.$k; }, array_keys($param)),
