@@ -80,8 +80,10 @@ class EvenementHandler{
 		}
 	}
     function delete_evenement(DAL $dal){        
-        
         $sql="DELETE FROM `Parametres` WHERE IdEvenement = ".$_SESSION['IdEvenement']."";
+    	$res= $dal->ExecuteInsert($sql,null);
+        
+        $sql="DELETE FROM `Joueurs` WHERE IdEvenement = ".$_SESSION['IdEvenement']."";
     	$res= $dal->ExecuteInsert($sql,null);
         
         $sql="DELETE FROM `Evenements` WHERE Id = ".$_SESSION['IdEvenement']."";
