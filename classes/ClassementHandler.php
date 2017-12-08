@@ -99,8 +99,7 @@ class Classement{
             		
 		$data= $dal->ExecuteGet("SELECT * FROM Joueurs WHERE IdEvenement = ".$_SESSION['IdEvenement'] ." ORDER BY Score DESC");	
                 $filename = "liste_joueurs_" . $_SESSION['NomEvenement'] . "_" . date('Ymd') . ".xls";
-//                header("Content-Disposition: attachment; filename=\"$filename\"");
-//                header("Content-Type: application/vnd.ms-excel");
+
 
                 $flag = false;
                 foreach($data as $row) {
@@ -115,7 +114,6 @@ class Classement{
           $str = preg_replace("/\r?\n/", "\\n", $str);
           if(strstr($str, '"')) $str = '"' . str_replace('"', '""', $str) . '"';
         });
-//                  array_walk($row, 'cleanData');
                   echo implode("\t", array_values(get_object_vars($row))) . "\r\n";
                 }
                 exit;

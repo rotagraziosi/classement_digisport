@@ -9,6 +9,11 @@ class Joueur{
 	var $Telephone;
 	var $Detail;
 	var $IdEvenement;
+    var $Info1;    
+    var $Info2;
+    var $Info3;
+    var $Info4;
+    var $Info5;
 
 
 	public function __construct(){
@@ -23,8 +28,8 @@ class Joueur{
     	{
     		$param = $_POST;
     		$param["IdEvenement"] = $_SESSION["IdEvenement"];
-	    	$sql = "INSERT INTO Joueurs(Nom,Prenom,Score,Email,Telephone,Detail,IdEvenement) 
-	    			VALUES (:Nom,:Prenom,:Score,:Email,:Telephone,:Detail,:IdEvenement
+	    	$sql = "INSERT INTO Joueurs(Nom,Prenom,Score,Email,Telephone,Detail,IdEvenement,Info1,Info2,Info3,Info4,Info5) 
+	    			VALUES (:Nom,:Prenom,:Score,:Email,:Telephone,:Detail,:IdEvenement,:Info1,:Info2,:Info3,:Info4,:Info5
 	    			)";   	
 	      	$res= $dal->ExecuteInsert($sql,$param);
     	}
@@ -51,6 +56,16 @@ class Joueur{
 		<input type="text" name="Telephone"><br> 
 		Détail additionnel:
 		<input type="text" name="Detail"><br> 
+		Information 1:
+		<input type="text" name="Info1"><br> 
+		Information 2:
+		<input type="text" name="Info2"><br> 
+		Information 3:
+		<input type="text" name="Info3"><br> 
+		Information 4:
+		<input type="text" name="Info4"><br> 
+		Information 5:
+		<input type="text" name="Info5"><br> 		
 		<input type="submit" value="Valider">
 		<input type="reset" value="Réinitialiser">
 				
@@ -61,10 +76,10 @@ class Joueur{
     	
     	$sql="UPDATE `Joueurs` 
     			SET Score=".$this->Score.",`Nom`='".$this->Nom."',`Prenom`='".$this->Prenom."',
-    			`Email`='".$this->Email."',`Telephone`='".$this->Telephone."',`Detail`='".$this->Detail."'
+    			`Email`='".$this->Email."',`Telephone`='".$this->Telephone."',`Detail`='".$this->Detail."',
+                Info1='".  $this->Info1."', Info2='".  $this->Info2."', Info3='".  $this->Info3."', Info4='".  $this->Info4."', Info5='".  $this->Info5."'
     			WHERE Id = ".$this->Id."";
- 
-    	
+   	
     	
     	$res= $dal->ExecuteInsert($sql,$_POST);
     }
@@ -125,6 +140,41 @@ class Joueur{
     			Détail additionnel
     			</label>
     			<input id="detail" type="text" name="Detail">
+    			</p>
+                
+                <p>
+    			<label for="info1">    				
+    			Information 1
+    			</label>
+    			<input id="info1" type="text" name="Info1">
+    			</p>
+                                
+                <p>
+    			<label for="info2">    				
+    			Information 2
+    			</label>
+    			<input id="info2" type="text" name="Info2">
+    			</p>
+                                
+                <p>
+    			<label for="info3">    				
+    			Information 3
+    			</label>
+    			<input id="info3" type="text" name="Info3">
+    			</p>
+                                
+                <p>
+    			<label for="info4">    				
+    			Information 4
+    			</label>
+    			<input id="info4" type="text" name="Info4">
+    			</p>
+                                
+                <p>
+    			<label for="info5">    				
+    			Information 5
+    			</label>
+    			<input id="info5" type="text" name="Info5">
     			</p>
     							
 				<p>
@@ -189,6 +239,41 @@ class Joueur{
     			<input id="detail" type="text" name="Detail" value="'.$res[0]->Detail.'">
     			</p>
     		
+                <p>
+    			<label for="info1">    				
+    			Information 1
+    			</label>
+    			<input id="info1" type="text" name="Info1" value="'.$res[0]->Info1.'">
+    			</p>
+                                
+                <p>
+    			<label for="info2">    				
+    			Information 2
+    			</label>
+    			<input id="info2" type="text" name="Info2" value="'.$res[0]->Info2.'">
+    			</p>
+                                
+                <p>
+    			<label for="info3">    				
+    			Information 3
+    			</label>
+    			<input id="info3" type="text" name="Info3" value="'.$res[0]->Info3.'">
+    			</p>
+                                
+                <p>
+    			<label for="info4">    				
+    			Information 4
+    			</label>
+    			<input id="info4" type="text" name="Info4" value="'.$res[0]->Info4.'">
+    			</p>
+                                
+                <p>
+    			<label for="info5">    				
+    			Information 5
+    			</label>
+    			<input id="info5" type="text" name="Info5" value="'.$res[0]->Info5.'">
+    			</p>
+                
 				<p>
     			<input type="submit" value="Valider">
 				<input type="reset" value="Réinitialiser">
