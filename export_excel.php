@@ -9,7 +9,7 @@
 
 session_start();
 if (!defined("BASE_PATH")) define('BASE_PATH', isset($_SERVER['DOCUMENT_ROOT']) ? $_SERVER['DOCUMENT_ROOT'] : substr($_SERVER['PATH_TRANSLATED'],0, -1*strlen($_SERVER['SCRIPT_NAME'])));
-define('ROOT_DIR',BASE_PATH.'/classement');
+define('ROOT_DIR',BASE_PATH.'');
 define('CONFIG', ROOT_DIR.'/settings/config.php');
 require CONFIG;
 
@@ -34,7 +34,7 @@ $dal = new DAL($db_host,$db_name,$db_user,$user_pw);
 
 
 $dal->Execute("SET @rank=0;");	
-$data= $dal->ExecuteSelectSimple(" SELECT @rank:=@rank+1 AS Position, Score,Nom,Prenom, Email,Telephone,Detail FROM Joueurs WHERE IdEvenement = ".$_SESSION['IdEvenement'] ." ORDER BY Score DESC");	
+$data= $dal->ExecuteSelectSimple(" SELECT @rank:=@rank+1 AS Position, Score,Nom,Prenom, Email,Telephone,Detail,Info1,Info2,Info3,Info4,Info5 FROM Joueurs WHERE IdEvenement = ".$_SESSION['IdEvenement'] ." ORDER BY Score DESC");	
 $filename = "liste_joueurs_" . $_SESSION['NomEvenement'] . "_" . date('Ymd') . ".xls";
 //
 //debug($data);
